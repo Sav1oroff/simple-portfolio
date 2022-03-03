@@ -1,0 +1,70 @@
+.contact .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact .row .image{
+  flex: 1 1 40rem;
+}
+.tilt-box-contact img{
+  height: 100%;
+  width: 100%;
+  border: none;
+  object-fit: cover;
+}
+.contact .row .image img{
+  width: 100%;
+  &:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.contact .row form{
+  flex: 1 1 40rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+  background: var(--color-white);
+}
+
+.contact .row form .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact .row form .inputBox input,
+.contact .row form .box,
+.contact .row form textarea{
+  width: 100%;
+  border-radius: .5rem;
+  font-size: 1.7rem;
+  color: var(--color-black);
+  padding: 1rem;
+  margin: 1rem 0;
+  border: .1rem solid rgba(0,0,0,.1);
+  text-transform: none;
+}
+
+.contact .row form .inputBox input:focus,
+.contact .row form .box:focus,
+.contact .row form textarea:focus{
+    border-color: var(--color-primary);
+}
+
+.contact .row form .inputBox input{
+  width: 49%;
+}
+
+.contact .row form textarea{
+  height: 20rem;
+  resize: none;
+}
+
+.contact .row form .btn{
+  margin: .5rem 0;
+}

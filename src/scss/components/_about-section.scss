@@ -1,0 +1,75 @@
+.heading{
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
+
+.heading span{
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.about .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.about .row .image{
+  text-align: center;
+  flex: 1 1 25rem;
+}
+
+.about .row .image img{
+  width: 30rem;
+  border-radius: .5rem;
+  border: 1rem solid var(--color-white);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.about .row .content{
+  flex: 1 1 55rem;
+}
+
+.about .row .content h3{
+  color: var(--color-black);
+  font-size: 4rem;
+}
+
+.about .row .content h3 span{
+  color: var(--color-primary);
+}
+
+.about .row .content .info{
+  color: var(--color-black);
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+
+.about .row .content .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.about .row .content .box-container .box{
+  flex: 1 1 20rem;
+}
+
+.about .row .content .box-container .box p{
+  font-size: 1.7rem;
+  color: var(--color-black);
+  padding: .5rem 0;
+  line-height: 2;
+}
+
+.about .row .content .box-container .box p span{
+  color: var(--color-primary);
+  
+}
