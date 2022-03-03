@@ -172,13 +172,13 @@ particlesJS('particles-js', {
       }
     },
     "color": {
-      "value": "#000000"
+      "value": "#ff0000"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#ff0000"
       },
       "polygon": {
         "nb_sides": 5
@@ -212,7 +212,7 @@ particlesJS('particles-js', {
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#000000",
+      "color": "#ff0000",
       "opacity": 0.4,
       "width": 1
     },
@@ -288,7 +288,7 @@ particlesJS('particles-js', {
 /***/ (() => {
 
 var typed = new Typed('.typing-text', {
-  strings: ['front end developer', 'web designer', 'graphic designer', 'web developer'],
+  strings: ['front end developer', 'web developer', 'front end developer', 'junior programmer'],
   loop: true,
   typeSpeed: 150
 });
